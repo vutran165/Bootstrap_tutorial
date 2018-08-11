@@ -5,5 +5,43 @@
 
 .header {
     width: 100%;
-    height: 60px;
+    position: relative;
+    z-index: 10;
+}
+
+/* top bar */
+.top_bar {
+    width: 100%;
+    height: 56px;
+    background: #fafafa;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.05);
+    z-index: 2;
+}
+
+.top_bar_contact_item {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 56px;
+    margin-right: 40px;
+}
+
+.top_bar_contact_item a {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 56px;
+    color: #000;
+    -webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+.top_bar_contact_item a:hover {
+    color: #8a8a8a;
+}
+
+.top_bar_contact_item:not(:first-child)
+{
+    margin-right: 0px;
 }
