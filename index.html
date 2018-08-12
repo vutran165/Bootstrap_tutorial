@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    
 
     <!-- style -->
     <link rel="stylesheet" href="main_style.css">
@@ -28,12 +30,12 @@
                         <div class="col d-flex flex-row">
                             <div class="top_bar_contact_item">
                                 <div class="top_bar_icon">
-                                    <span><i class="fas fa-mobile-alt"></i>+ 84 0163 854 7981</span>
+                                    <a href="#"><span><i class="fas fa-mobile-alt"></i>&nbsp;&nbsp;+ 84 0163 854 7981</span></a>
                                 </div>
                             </div>
                             <div class="top_bar_contact_item">
                                 <div class="top_bar_icon">
-                                    <span><i class="far fa-envelope"></i>bachtuvu.dev@gmail.com</span>
+                                   <a href="#"><span><i class="far fa-envelope"></i>&nbsp;&nbsp;bachtuvu.dev@gmail.com</span></a>
                                 </div>
                             </div>
                             <div class="top_bar_content ml-auto">
@@ -76,6 +78,70 @@
             
             <!-- header-main -->
             <div class="header-main">
+                <div class="container">
+                    <div class="row">
+                        <!--  logo -->
+                        <div class="col-lg-2 col-sm-3 col-3 order-1">
+                            <div class="logo_container">
+                                <div class="logo"></div>
+                            </div>
+                        </div>
+
+                        <!-- search -->
+                        <div class="col-lg-6 col-12 order-lg-2 order-3 text-lg-left text-right">
+                            <div class="header_search">
+                                <div class="header_search_content">
+                                    <div class="header_search_form_container">
+                                        <form class="header_search_form clearfix">
+                                              <input type="search" class="header_search_input" required="required" placeholder="Search for products...">
+                                            <div class="custom_dropdown">
+                                                <div class="custom_dropdown_list">
+                                                    <span class="custom_dropdown_placeholder clc">All Categories</span>
+                                                    <i class="fas fa-chevron-down"></i>
+                                                    <ul class="custom_list clc">
+                                                        <li><a href="#" class="clc"></a>All Categories</li>
+                                                        <li><a href="#" class="clc"></a>Computer</li>
+                                                        <li><a href="#" class="clc"></a>Hardware</li>
+                                                        <li><a href="#" class="clc"></a>Software</li>
+                                                        <li><a href="#" class="clc"></a>Iphone</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <button type="submit" class="header_search_button trans_300" value="submit"></button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- wishlist -->
+                        <div class="col-lg-4 col-9 order-lg-3 order-2 text-lg-left text-right">
+                            <div class="wishlist_cart d-flex flex-row align-itema-center justify-content-end">
+                                 <div class="wishlist d-flex flex-row align-itema-center justify-content-end">
+                                     <div class="wishlist_icon"></div>
+                                     <div class="wishlist_content">
+                                            <div class="wishlist_text"><a href="#">Wishlist</a></div>
+                                            <div class="wishlist_count">115</div>
+                                     </div>
+                                 </div>
+                            </div>
+
+                            <div class="cart">
+                                <div class="cart_container d-flex flex-row align-itema-center justify-content-end">
+                                    <div class="cart_icon">
+                                        <div class="cart_count"><span>10</span></div>
+                                    </div>
+                                    <div class="cart_content">
+                                        <div class="cart_text"><a href="#">Cart</a></div>
+										<div class="cart_price">$85</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
                  
             </div>
         </header>
@@ -100,11 +166,12 @@
 
         </div>
 
-    </div>
+    </div>    
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 </body>
 </html>
