@@ -7,12 +7,8 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-    <!-- Latest compiled and minified JavaScript -->
-    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-
-    
 
     <!-- style -->
     <link rel="stylesheet" href="main_style.css">
@@ -21,152 +17,58 @@
     <title>Web Test</title>
 </head>
 <body>
-    <div class="super_container">
-        <header class="header">
-            <!-- top_bar -->
-            <div class="top_bar">
-                <div class="container">
-                    <div class="row">
-                        <div class="col d-flex flex-row">
-                            <div class="top_bar_contact_item">
-                                <div class="top_bar_icon">
-                                    <a href="#"><span><i class="fas fa-mobile-alt"></i>&nbsp;&nbsp;+ 84 0163 854 7981</span></a>
-                                </div>
-                            </div>
-                            <div class="top_bar_contact_item">
-                                <div class="top_bar_icon">
-                                   <a href="#"><span><i class="far fa-envelope"></i>&nbsp;&nbsp;bachtuvu.dev@gmail.com</span></a>
-                                </div>
-                            </div>
-                            <div class="top_bar_content ml-auto">
-                                <div class="top_bar_menu">
-                                    <ul class="standard_dropdown top_bar_dropdown">
-                                        <li>
-                                            <a href="#">English<i class="fas fa-chevron-down"></i></a>
-                                            <ul>
-                                                <li><a href="#">Vietnamese</a></li>
-                                                <li><a href="#">Korea</a></li>
-                                                <li><a href="#">Chinese</a></li>
-                                                <li><a href="#">Japanese</a></li>
-                                            </ul>   
-                                        </li>
-
-                                        <li>
-                                            <a href="#">$ USD<i class="fas fa-chevron-down"></i></a>
-                                            <ul>
-                                                <li><a href="#">VND</a></li>
-                                                <li><a href="#">SDG</a></li>
-                                            </ul>   
-                                        </li>
-
+   <div class="super_container">
+       <header class="header">
+           <div class="topbar">
+                <div class="topbar_pullleft">
+                    <div class="topbar_item"><span><i class="fas fa-mobile-alt"></i>&nbsp;&nbsp;+84 01638547981</span></div>
+                    <div class="topbar_item"><span><i class="far fa-envelope"></i>&nbsp;&nbsp;bachtuvu.dev@gmail.com</span></div>
+                </div>
+                <div class="topbar_pullright">
+                    <div class="topbar_pullright_menu">
+                        <ul class="standard_dropdown">
+                            <li>
+                                    <a href="#"><span>Engish</span></a>
+                                    <ul class="topbar_dropdown">
+                                        <li><a href="#">Euro</a></li>
+                                        <li><a href="#">SGD</a></li>
+                                        <li><a href="#">VND</a></li>
+                                    </ul>
+                            </li>
+                            <li>
+                                    <a href="#"><span>$ USD</span></a>
+                                    <ul class="topbar_dropdown">
+                                        <li><a href="#">Euro</a></li>
+                                        <li><a href="#">SGD</a></li>
+                                        <li><a href="#">VND</a></li>
+                                    </ul>
+                            </li>
+                        </ul>
+                            <!-- <div class="topbar_item">
+                                    <a href="#"><span>Engish</span></a>
+                                    <ul class="topbar_dropdown">
+                                        <li><a href="#">Euro</a></li>
+                                        <li><a href="#">SGD</a></li>
+                                        <li><a href="#">VND</a></li>
                                     </ul>
                                 </div>
-
-                                <div class="top_bar_user">
-                                    <div class="user_icon"><i class="far fa-user"></i></div>
-                                    <div class="#"><a href="#">Register</a></div>
-                                    <div class="#"><a href="#">Sign in</a></div>
-                                </div>
-                            </div>
-    
-                        </div>
-
+                            <div class="topbar_item">
+                                    <a href="#"><span>$ USD</span></a>
+                                    <ul class="topbar_dropdown">
+                                        <li><a href="#">Euro</a></li>
+                                        <li><a href="#">SGD</a></li>
+                                        <li><a href="#">VND</a></li>
+                                    </ul>
+                            </div> -->
+                    </div>
+                    <div class="topbar_user">
+                        <a href="#"><span><i class="far fa-user"></i>Register</span></a>
+                        <a href="#"><span>Signin</span></a>
                     </div>
                 </div>
-            </div>
-            <!-- end top_bar -->
-            
-            <!-- header-main -->
-            <div class="header-main">
-                <div class="container">
-                    <div class="row">
-                        <!--  logo -->
-                        <div class="col-lg-2 col-sm-3 col-3 order-1">
-                            <div class="logo_container">
-                                <div class="logo"></div>
-                            </div>
-                        </div>
-
-                        <!-- search -->
-                        <div class="col-lg-6 col-12 order-lg-2 order-3 text-lg-left text-right">
-                            <div class="header_search">
-                                <div class="header_search_content">
-                                    <div class="header_search_form_container">
-                                        <form class="header_search_form clearfix">
-                                              <input type="search" class="header_search_input" required="required" placeholder="Search for products...">
-                                            <div class="custom_dropdown">
-                                                <div class="custom_dropdown_list">
-                                                    <span class="custom_dropdown_placeholder clc">All Categories</span>
-                                                    <i class="fas fa-chevron-down"></i>
-                                                    <ul class="custom_list clc">
-                                                        <li><a href="#" class="clc"></a>All Categories</li>
-                                                        <li><a href="#" class="clc"></a>Computer</li>
-                                                        <li><a href="#" class="clc"></a>Hardware</li>
-                                                        <li><a href="#" class="clc"></a>Software</li>
-                                                        <li><a href="#" class="clc"></a>Iphone</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <button type="submit" class="header_search_button trans_300" value="submit"></button>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <!-- wishlist -->
-                        <div class="col-lg-4 col-9 order-lg-3 order-2 text-lg-left text-right">
-                            <div class="wishlist_cart d-flex flex-row align-itema-center justify-content-end">
-                                 <div class="wishlist d-flex flex-row align-itema-center justify-content-end">
-                                     <div class="wishlist_icon"></div>
-                                     <div class="wishlist_content">
-                                            <div class="wishlist_text"><a href="#">Wishlist</a></div>
-                                            <div class="wishlist_count">115</div>
-                                     </div>
-                                 </div>
-                            </div>
-
-                            <div class="cart">
-                                <div class="cart_container d-flex flex-row align-itema-center justify-content-end">
-                                    <div class="cart_icon">
-                                        <div class="cart_count"><span>10</span></div>
-                                    </div>
-                                    <div class="cart_content">
-                                        <div class="cart_text"><a href="#">Cart</a></div>
-										<div class="cart_price">$85</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                 
-            </div>
-        </header>
-
-        <div class="banner">
-            <div class="slide">
-                <div class="sidebar_menu">
-
-                </div>
-                <div class="navigation_menu">
-
-                </div>
-            </div>
-
-        </div>
-
-        <div class="service_delivery">
-
-        </div>
-
-        <div class="popular_categories">
-
-        </div>
-
-    </div>    
+           </div>
+       </header>
+   </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     
