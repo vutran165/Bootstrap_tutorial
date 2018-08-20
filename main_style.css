@@ -1,4 +1,4 @@
- html, body {
+html, body {
     font-family: 'Rubik', sans-serif;
 	/* font-size: 14px; */
 	font-weight: 400;
@@ -130,10 +130,7 @@ ul
     padding: 0px;
 }
 
-.standard_dropdown li li {
-    display: block;
-    width: 100%;
-}
+
 
 .standard_dropdown li li a {
     display: block;
@@ -289,10 +286,116 @@ topbar_user a {
     float: left;
 }
 
+.header_search_container {
+    height: 100%;
+    width: 100%; 
+}
+
+.box {
+    width: 80%;
+    height: 50%;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+    left: 20%;
+    top: 30%;
+    display: inline-block;
+}
+
+.box input#search {
+    width: 80%;
+    height: 50px;
+    left: 20%;
+    background: #f2f2f2;
+    font-size: 17px;
+    color: #63717f;
+    padding-left: 40px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    transition: background .55s ease;
+}
+
+.box input#search::-webkit-input-placeholder {
+    color: #65737e;
+}
+
+
+/* firefox 18- */
+.box input#search::--moz-placeholder {
+    color: #65737e;
+}
+
+/* firefox 19+ */
+.box input#search::-moz-input-placeholder {
+    color: #65737e;
+}
+
+.box input#search::-ms-input-placeholder {
+    color: #65737e;
+}
+
+.box .icon {
+    position: absolute;
+    top: 15px;    
+    left: 15px;
+    z-index: 2;
+    color: #4f5b66;
+}
+
+.box input#search:hover, box input#search:focus,
+ box input#search:active {
+    outline: none;
+    background: #ffffff;
+}
+
+
+
+
 
 .cart {
     height: 100%;
     width: 30%;
     float: left;
 }
+
+.cart_container {
+    height: 100%;
+    width: 100%;      
+    float: right;      
+}
+
+.cart_container ul {
+    /* display: inline; */
+    padding-top: 10%;  
+    padding-left: 70%;
+}
+
+.cart_container ul li {
+    display: inline;
+}
+
+.cart_container ul li a {
+    color: #0e8ce4;
+}
+
+.cart_container ul li a:hover {
+    color: #000000;
+}
+
+.badge {
+    background: #6394f8;
+    border-radius: 10px;
+    color:white;
+    display: inline-block;
+    font-size: 14px;
+    line-height:1;
+    padding:4px 8px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+
+
 
