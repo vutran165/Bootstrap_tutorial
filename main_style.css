@@ -306,7 +306,7 @@ topbar_user a {
 	float: left;
 	margin-top:10%;
 	height:56px;
-	border-box: solid 1px #00B4CC;
+	/* border-box: solid 1px #00B4CC; */
 	border-radius: 5px;
 }
 
@@ -324,9 +324,9 @@ topbar_user a {
     
 }
 
-.custom_dropdown::before {
+/* .custom_dropdown::before {
 	
-}
+} */
 
 .custom_dropdown i {
 	display: none;
