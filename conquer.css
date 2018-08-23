@@ -1,0 +1,131 @@
+.navbar-inverse {
+    background-color: #383e4c;
+    border-color: #383e4c;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    background: #383e4c none repeat scroll 0 0;
+    border: 1pxx solid #646d7c;
+    color: #fff;
+    font-size: 20px;
+    padding: 16px 24px;
+    text-decoration: none;
+    text-transform: capitalize;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.navbar-inverse .navbar-nav > li > a.current,
+.navbar-inverse .navbar-nav > li > a:hover {
+    background: #49505f;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+/* Media Queries */
+@media only screen and (min-width:992px) and (max-width: 1199px){
+    
+}
+
+@media only screen and (max-width: 767px){
+
+    /* header {
+        height: 75vh;
+        padding: 0 15px;
+    } */
+    .navbar-nav >li {
+        display: block;
+    }
+
+    .navbar-inverse {
+        background: none;
+        border: none;
+    }
+
+    .navbar-inverse .navbar-toggle {
+        background-color: #333;
+    }
+
+    .navbar-inverse .navbar-toggle,.navbar-inverse .navbar-form {
+        background-color: #49505f;
+    }
+
+    .navbar .navbar-nav {
+        width: 100%;
+        margin: 0;
+
+    }
+
+    .navbar-collapse {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .navbar-nav > li {
+        width: 100%;
+        border-bottom: 1px solid #999;
+        padding: 0px;
+    }
+
+    .navbar-nav > li:last-child {
+        border-bottom: none;
+    }
+
+    .navbar-inverse .navbar-nav >li>a {
+        background: none;
+        border: none;
+        width: 100%;
+        padding:10px 0px;
+    }
+
+    .navbar-inverse .navbar-nav >li>a:focus,
+    .navbar-inverse .navbar-nav >li>a:hover {
+        background-color: #383e4c;
+    }
+
+    
+    .navbar-inverse .navbar-nav >.active>a:focus,
+    .navbar-inverse .navbar-nav >.active>a:hover {
+        background-color: #383e4c;
+    }
+
+    .navbar-inverse .navbar-nav >.active>a,
+    .navbar-inverse .navbar-nav >.active>a:focus,
+    .navbar-inverse .navbar-nav >.active>a:hover {
+        background-color: #383e4c;
+    }
+
+    .navbar-inverse .navbar-nav >li>a {
+        font-size: 16px;
+    }
+
+    .container {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .single-page-nav {
+        background-color: #383e4c;
+        max-height: 0;
+        -webkit-transition: max-height 0.8s;
+        transition:  max-height 0.8s;
+        overflow: hidden;
+    }
+}
+
+
+
+
+
