@@ -3,6 +3,9 @@ html, body {
     width:100%;
 
 }
+
+
+
 .div {
     display: block;
 }
@@ -20,6 +23,7 @@ html, body {
     overflow: hidden;
     position: relative;
     z-index: 2;
+  
 }
 
 .logo {
@@ -73,6 +77,7 @@ html, body {
     
     color: #e45c0e;
 }
+
 
 .content {
     width: 100%;
