@@ -31,9 +31,11 @@ ul li a:hover {
 }
 
 .single-page-nav {
-    /* text-align: center; */
+    text-align: center;
 }
 
+
+/* navigation */
 .navbar-inverse {
     background-color: #383e4c;
     border-color: #383e4c;
@@ -49,7 +51,7 @@ ul li a:hover {
     border: 1pxx solid #646d7c;
     color: #fff;
     font-size: 20px;
-    padding: 16px 24px;
+    padding: 15px 25px;
     text-decoration: none;
     text-transform: capitalize;
     -webkit-transition: all 0.3s ease;
@@ -71,9 +73,6 @@ ul li a:hover {
 }
 
 
-
-
-
 /* Media Queries */
 @media only screen and (min-width:992px) and (max-width: 1199px){
     
@@ -81,10 +80,11 @@ ul li a:hover {
 
 @media only screen and (max-width: 767px){
 
-    /* header {
+    header {
         height: 75vh;
         padding: 0 15px;
-    } */
+    }
+
     .navbar-nav >li {
         display: block;
     }
@@ -135,7 +135,6 @@ ul li a:hover {
         background-color: #383e4c;
     }
 
-    
     .navbar-inverse .navbar-nav >.active>a:focus,
     .navbar-inverse .navbar-nav >.active>a:hover {
         background-color: #383e4c;
@@ -163,14 +162,17 @@ ul li a:hover {
         -webkit-transition: max-height 0.8s;
         transition:  max-height 0.8s;
         overflow: hidden;
-        text-align: center;
+        /* text-align: center; */
     }
 
+    .single-page-nav .show {
+        max-height: 250px;
+        overflow: auto;
+    }
 
-
-    
 }
 
+/* Wide Mobile Layout: 480px */
 
 
 
