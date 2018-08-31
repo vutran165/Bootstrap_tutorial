@@ -1,0 +1,116 @@
+ul > li > a:hover, a:active, a:visited {
+    text-decoration: none;
+    cursor: pointer;
+} 
+
+.navbar-menu {
+    margin: 0;
+    
+}
+
+.custom-navbar {
+    padding: 0;
+    margin: 0;
+    line-height: 3;
+}
+
+.navbar-menu li {
+    display: inline-block;
+    padding: 16px 24px;
+    text-align: center;
+    margin: 0;
+    
+}
+
+.navbar-menu li:hover {
+    /* color: green; */
+    /* transition: 0.5s; */
+    background: #42b3f4;
+    color: white;
+    
+}
+
+.navbar-menu li a:hover {
+    color: white;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+/* .carousel-item img {
+} */
+/* team */
+#team {
+    background: #f9f9f9;
+}
+
+.team-content {
+    /* border: 1px solid #f0f0f0; */
+    /* padding:  */
+    position: relative;
+    overflow: hidden;
+    background: #ffffff;
+    text-align: left;
+}
+
+.team-content .social-icon {
+    margin: 0;
+    padding: 4px 20px 0 20px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.team-content .social-icon li a {
+    background: #ffffff;
+    color: #252020;
+}
+
+.team-image img {
+    width: 100%;
+}
+
+.team-info {
+    padding: 16px 24px;
+}
+
+/* social-icon */
+.social-icon {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icon li {
+    display: inline-block;
+    padding: 8px;
+}
+
+
+.social-icon li a {
+    background: #ffffff;
+    color: #252020;
+    border-radius: 50px;
+    color: #29ca8e;
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+    position: relative;
+    margin: 6px 6px 6px 0;
+}
+
+.social-icon li a:hover {
+    cursor: pointer;
+    background: #29ca8e;
+    color: #ffffff;
+}
+
