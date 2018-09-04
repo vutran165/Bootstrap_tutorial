@@ -128,24 +128,25 @@ ul > li > a:hover, a:active, a:visited {
 
 .social-icon li {
     display: inline-block;
-    padding: 8px;
+    margin-bottom: 5px;
+    list-style: none;
 }
 
 
 .social-icon li a {
     background: #ffffff;
     color: #252020;
-    border-radius: 40px;
+    border-radius: 100px;
     color: #29ca8e;
-    font-size: 16px;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
+    font-size: 15px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
     text-decoration: none;
     text-align: center;
     transition: all 0.4s ease-in-out;
     position: relative;
-    margin: 6px 6px 6px 0;
+    margin: 5px 5px 5px 0;
 }
 
 .social-icon li a:hover {
@@ -172,11 +173,231 @@ ul > li > a:hover, a:active, a:visited {
     padding: 0;
 }
 
-#courses .item {
-    width: 100% !important;
+.courses-thumb {
+    background: #ffffff;
+    position: relative;
+}
+
+.courses-top {
+    position: relative;
+}
+
+.courses-image {
+    background: linear-gradient(rgba(to right, #202020, #101010));
+}
+
+.courses-date {
+    background: linear-gradient(rgba(255, 0,  0, 0), rgba(0,0,0,0.6));
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 20px 25px;
+}
+
+.courses-date span,
+.courses-author span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.courses-detail {
+    background: rgb(231, 224, 224);
+    padding: 25px 25px 15px 25px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.courses-info {
+    background: rgb(231, 224, 224);
+    border-top: 1px solid #f0f0f0;
+    padding: 15px 25px;
+    clear: both;
+    position: relative;
+}
+
+.courses-author,
+.courses-author span {
+    display: inline-block ;
+    vertical-align: middle;
+    /* float: right; */
+}
+
+.courses-author img {
+    display: inline-block !important;
+    width:50px !important;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.courses-price {
+    float: right;
+    margin-top: 8px;
+
+}
+
+.courses-price span {
+    background: #29ca8e;
+    border-radius: 5px;
+    color: #ffffff;
+    display: block;
+    padding: 5px 10px;
+
+}
+
+/* contact */
+
+#contact {
+    background: #3f51b5;
+}
+
+#contact h2 {
+    color: #ffffff;
+}
+
+#contact h2 > small,
+#contact p,
+#contact a {
+    color: #f9f9f9;
+}
+
+    
+
+#contact-form {
+    display: inline-block;
+    padding: 1em 0;
+}
+
+#contact-form .col-md-12,
+#contact-form .col-md-4 {
+    padding-left: 0;
+}
+
+#contact-form .form-control {
+    border: 0;
+    border-radius: 5px;
+    box-shadow: none;
+    margin: 10px 0;
+}
+
+#contact-form input {
+    height: 50px;
+}
+
+#contact-form input[type='submit'] {
+    border-radius: 50px;
+    border:1px solid transparent;
+}
+
+#contact-form input[type='submit']:hover {
+    background: transparent;
+    color: #ffffff;
+    border-color: #ffffff;
+    cursor: pointer;
 }
 
 
+/* footer */
+#footer {
+    background: #252020;
+}
+
+#footer h2 {
+    color: #909090;
+}
+
+#footer address p {
+    color: #909090;
+}
+
+#footer address p a {
+    color: #909090;
+}
+
+#footer address p a:hover {
+    color: #29ca8e;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.copyright-text p {
+    color: #909090;
+}
+
+.copyright-text p a {
+    color: #909090;
+}
+
+.copyright-text p a:hover {
+    color: #29ca8e;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer-info {
+    margin: 2em;
+}
+
+.footer_menu h2 {
+    margin-top: 2em;
+}
+
+.footer_menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer_menu ul li {
+  display: inline-block;
+  padding: 5px 5px;
+  list-style: none;
+  
+}
+
+.footer_menu ul li a {
+    color: #909090;
+}
+
+.footer_menu ul li a:hover {
+    color: #29ca8e;
+}
+
+
+.newsletter-form .form-control {
+    background: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    border: 0;
+    border-bottom: 1px solid #303030;
+    height: 50px;
+    margin: 5px 0;
+}
+
+
+.newsletter-form input[type="submit"]
+{   
+    background: transparent;
+    border: 1px solid #f9f9f9;
+    border-radius: 50px;
+    color: #909090;
+    margin-top: 20px;
+    outline: none;
+    width: 50%;
+}
+
+
+.newsletter-form input[type="submit"]:hover {
+    background: #29ca8e;
+    cursor: pointer;
+}
+
+
+.newsletter-form span {
+    color: #909090;
+    display: block;
+    font-size: 12px;
+    margin-top: 20px;
+}
 
 /* responsive styles */
 
@@ -191,6 +412,9 @@ ul > li > a:hover, a:active, a:visited {
     }
 
 
+    .contact-image {
+        margin-top: 60px;
+    }
 
 
 
