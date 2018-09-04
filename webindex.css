@@ -3,6 +3,19 @@ ul > li > a:hover, a:active, a:visited {
     cursor: pointer;
 } 
 
+.section-title  {
+    padding-top: 40px;
+}
+
+.section-title h2 {
+    margin: 0;
+}
+
+.section-title small {
+    display: block;
+}
+
+
 .navbar-menu {
     margin: 0;
     
@@ -70,12 +83,11 @@ ul > li > a:hover, a:active, a:visited {
 } */
 /* team */
 #team {
-    background: rgb(196, 196, 196);
+    background: rgb(231, 224, 224);
 }
 
 #team .section-title {
     text-align: center;
-    margin-bottom: 10px;
 }
 
 
@@ -145,23 +157,75 @@ ul > li > a:hover, a:active, a:visited {
 /* courses */
 #courses .section-title {
     text-align: center;  
-   
 }
 
+#courses .owl-theme .owl-nav {
+    margin-top: 30px;
+}
+
+#courses .owl-theme .owl-nav [class*=owl-] {
+    border-radius: 2px;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 0;
+}
+
+#courses .item {
+    width: 100% !important;
+}
 
 
 
 /* responsive styles */
+
+@media screen and (min-width:1200px) {
+    section, footer {
+        padding-bottom: 60px;
+    }
+
+    .section-title {
+        padding-top: 60px;
+        padding-bottom: 40px; 
+    }
+
+
+
+
+
+}
+
+
 @media screen and (max-width: 1170px) {
+    .custom-navbar .navbar-nav .navbar-nav first {
+        margin-left:inherit; 
+    }
 
 }
 
 @media only screen and (max-width: 992px) {
+    section, footer {
+        padding: 60px 0;
+    }
+
+
+
+    /* .item {
+        background-position: center center;
+    } */
+
+    .feature-thumb, .team-thumb, .footer-info {
+        margin-bottom: 50px;
+    }
 
 }
 
 @media only screen and (max-width: 768px) and (max-width:991px) {
-
+    .custom-navbar .nav li a {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
