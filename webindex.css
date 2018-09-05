@@ -47,6 +47,8 @@ ul > li > a:hover, a:active, a:visited {
     color: white;
 }
 
+
+
 .carousel-item {
     height: 100vh;
     min-height: 300px;
@@ -399,11 +401,65 @@ ul > li > a:hover, a:active, a:visited {
     margin-top: 20px;
 }
 
+
+/* home and slider */
+
+#home {
+    padding: 0;
+}
+
+#home h1 {
+    color: #ffffff;
+}
+
+#home h3 {
+    color: #f9f9f9;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    padding: 5px 0 40px 0;
+}
+
+/* responsive styles home and slider */
+@media (min-width:768px) {
+    .home-slider .col0md-6 {
+        padding-left: 0;
+    }
+
+    .home-slider .item {
+        background-repeat: no-repeat;
+        background-attachment: local;
+        background-size: auto;
+        height: 650px;
+    }
+
+    .home-slider .item-first {
+        background-image: url("../Bootstrap_tutorial/images_teachers/slider-image1.jpg");
+        background-position: center;
+    }
+
+    
+    .home-slider .item-second {
+        background-image: url("../Bootstrap_tutorial/images_teachers/slider-image1.jpg");
+       
+    }
+
+    
+    .home-slider .item-third {
+        background-image: url("../Bootstrap_tutorial/images_teachers/slider-image1.jpg");
+       
+    }
+}
+
 /* responsive styles */
 
 @media screen and (min-width:1200px) {
     section, footer {
         padding-bottom: 60px;
+    }
+
+    #slider {
+        background-size: auto;
     }
 
     .section-title {
@@ -415,6 +471,7 @@ ul > li > a:hover, a:active, a:visited {
     .contact-image {
         margin-top: 60px;
     }
+
 
 
 
