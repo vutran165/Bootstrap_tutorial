@@ -449,6 +449,8 @@ ul > li > a:hover, a:active, a:visited {
         background-image: url("../Bootstrap_tutorial/images_teachers/slider-image1.jpg");
        
     }
+
+
 }
 
 /* responsive styles */
@@ -472,6 +474,9 @@ ul > li > a:hover, a:active, a:visited {
         margin-top: 60px;
     }
 
+    #feature .col-md-4 {
+        padding: 70px 42px;
+    }
 
 
 
